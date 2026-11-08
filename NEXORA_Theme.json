@@ -1,0 +1,123 @@
+{
+  "name": "NEXORA Cricket Intelligence",
+  "dataColors": ["#22D3EE", "#F5B700", "#3B82F6", "#8B5CF6", "#EC4899", "#22C55E", "#F97316", "#94A3B8"],
+  "background": "#0F1B3D",
+  "foreground": "#EAF1FF",
+  "secondaryBackground": "#16264F",
+  "tableAccent": "#22D3EE",
+  "good": "#22C55E",
+  "neutral": "#F5B700",
+  "bad": "#EF4444",
+  "maximum": "#22D3EE",
+  "center": "#F5B700",
+  "minimum": "#8B5CF6",
+  "null": "#64748B",
+  "textClasses": {
+    "label":       { "fontSize": 11, "fontFace": "Segoe UI", "color": "#9FB3D9" },
+    "callout":     { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "title":       { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#EAF1FF" },
+    "header":      { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#EAF1FF" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#060D24" } }, "transparency": 0 }],
+        "outspace":   [{ "color": { "solid": { "color": "#030816" } } }]
+      }
+    },
+    "*": {
+      "*": {
+        "title": [{
+          "show": true, "alignment": "left", "fontSize": 13, "fontFamily": "Segoe UI Semibold",
+          "fontColor": { "solid": { "color": "#EAF1FF" } }
+        }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#0F1B3D" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#1E3263" } }, "radius": 10 }],
+        "dropShadow": [{ "show": false }],
+        "padding": [{ "top": 8, "bottom": 8, "left": 12, "right": 12 }],
+        "visualHeader": [{ "show": false }],
+        "categoryAxis": [{
+          "show": true, "showAxisTitle": false, "fontSize": 10, "fontFamily": "Segoe UI",
+          "labelColor": { "solid": { "color": "#9FB3D9" } },
+          "lineColor": { "solid": { "color": "#1E3263" } }
+        }],
+        "valueAxis": [{
+          "show": true, "showAxisTitle": false, "fontSize": 10, "fontFamily": "Segoe UI",
+          "labelColor": { "solid": { "color": "#9FB3D9" } },
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#1A2A55" } },
+          "gridlineThickness": 1
+        }],
+        "labels": [{
+          "fontSize": 10, "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#EAF1FF" } }
+        }],
+        "legend": [{
+          "show": true, "position": "Top", "fontSize": 10,
+          "labelColor": { "solid": { "color": "#9FB3D9" } }
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{
+          "fontSize": 28, "fontFamily": "Segoe UI Semibold",
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "categoryLabels": [{
+          "show": true, "fontSize": 11,
+          "color": { "solid": { "color": "#9FB3D9" } }
+        }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#22D3EE" } }, "radius": 10 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "data": [{ "mode": "Dropdown" }],
+        "header": [{
+          "show": true, "fontSize": 11,
+          "fontColor": { "solid": { "color": "#EAF1FF" } }
+        }],
+        "items": [{
+          "fontSize": 11,
+          "fontColor": { "solid": { "color": "#EAF1FF" } },
+          "background": { "solid": { "color": "#16264F" } },
+          "outline": "None"
+        }],
+        "title": [{ "show": false }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{ "strokeWidth": 3, "showMarker": true, "markerSize": 5 }],
+        "dataPoint": [{ "fill": { "solid": { "color": "#22D3EE" } } }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [{ "innerPadding": 35 }],
+        "labels": [{ "show": true }],
+        "valueAxis": [{ "show": false, "gridlineShow": false }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "categoryAxis": [{ "innerPadding": 35 }],
+        "labels": [{ "show": true }],
+        "valueAxis": [{ "show": false, "gridlineShow": false }]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "categoryAxis": [{ "innerPadding": 30 }],
+        "valueAxis": [{ "show": true }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Right" }],
+        "labels": [{ "labelStyle": "Percent of total" }]
+      }
+    }
+  }
+}

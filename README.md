@@ -70,7 +70,8 @@ The project consists of six report pages: one introduction page and five analyti
 ## 1. Introduction – NEXORA Cricket Intelligence
 
 <p align="center">
-  <img src="Screenshots/01-Introduction.png" alt="NEXORA Introduction Page" width="100%"/>
+  <img src="<img width="967" height="740" alt="Screenshot 2026-11-08 123245" src="https://github.com/user-attachments/assets/8f947bcf-e633-46ca-97de-86c1e40d025a" />
+" alt="NEXORA Introduction Page" width="100%"/>
 </p>
 
 **Purpose:** Introduces the analytics platform and provides navigation to its five analytical modules.
@@ -84,7 +85,8 @@ The project consists of six report pages: one introduction page and five analyti
 ## 2. Tournament Overview
 
 <p align="center">
-  <img src="Screenshots/02-Tournament-Overview.png" alt="IPL Tournament Overview Dashboard" width="100%"/>
+  <img src="<img width="965" height="742" alt="Tournment Overiew" src="https://github.com/user-attachments/assets/956b2dda-876d-45cf-84bd-3eb5fbdad0d8" />
+" alt="IPL Tournament Overview Dashboard" width="100%"/>
 </p>
 
 **Purpose:** Provides a consolidated overview of IPL tournament statistics and franchise achievements.
@@ -102,7 +104,8 @@ The project consists of six report pages: one introduction page and five analyti
 ## 3. Batting Intelligence
 
 <p align="center">
-  <img src="Screenshots/03-Batting-Intelligence.png" alt="IPL Batting Intelligence Dashboard" width="100%"/>
+  <img src="<img width="963" height="741" alt="Batting Intelligence" src="https://github.com/user-attachments/assets/7757869f-f702-45ae-bdac-e2637f5503cc" />
+" alt="IPL Batting Intelligence Dashboard" width="100%"/>
 </p>
 
 **Purpose:** Evaluates individual batting performance and identifies the most productive batsmen.
@@ -118,7 +121,8 @@ The project consists of six report pages: one introduction page and five analyti
 ## 4. Bowling Intelligence
 
 <p align="center">
-  <img src="Screenshots/04-Bowling-Intelligence.png" alt="IPL Bowling Intelligence Dashboard" width="100%"/>
+  <img src="<img width="967" height="738" alt="Bowling Intelligence" src="https://github.com/user-attachments/assets/71c30227-07cb-42b8-9c90-1d43a11e90ee" />
+" alt="IPL Bowling Intelligence Dashboard" width="100%"/>
 </p>
 
 **Purpose:** Analyzes bowling effectiveness, wicket-taking ability, and bowling performance.
@@ -136,10 +140,11 @@ The project consists of six report pages: one introduction page and five analyti
 - Dismissal type analysis.
 - Over-by-over bowling analysis.
 
-## 5. Match Insights
+  ## 5. Match Insights
 
 <p align="center">
-  <img src="Screenshots/05-Match-Insights.png" alt="IPL Match Insights Dashboard" width="100%"/>
+  <img src="<img width="965" height="742" alt="Match Insights" src="https://github.com/user-attachments/assets/8edebb14-f160-48f5-af71-15002ff61365" />
+" alt="IPL Match Insights Dashboard" width="100%"/>
 </p>
 
 **Purpose:** Explores match outcomes, toss decisions, venue activity, and winning patterns.
@@ -157,7 +162,8 @@ The project consists of six report pages: one introduction page and five analyti
 ## 6. Team Performance
 
 <p align="center">
-  <img src="Screenshots/06-Team-Performance.png" alt="IPL Team Performance Dashboard" width="100%"/>
+  <img src="<img width="972" height="738" alt="Team Performance" src="https://github.com/user-attachments/assets/44434d14-e64e-474f-ad34-e4633c97a98e" />
+" alt="IPL Team Performance Dashboard" width="100%"/>
 </p>
 
 **Purpose:** Compares IPL franchise performance through wins, winning percentages, and historical team rankings.

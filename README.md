@@ -69,10 +69,8 @@ The project consists of six report pages: one introduction page and five analyti
 
 ## 1. Introduction – NEXORA Cricket Intelligence
 
-<p align="center">
-  <img src="<img width="967" height="740" alt="Screenshot 2026-11-08 123245" src="https://github.com/user-attachments/assets/8f947bcf-e633-46ca-97de-86c1e40d025a" />
-" alt="NEXORA Introduction Page" width="100%"/>
-</p>
+![Uploading Screenshot 2026-11-08 123245.png…]()
+
 
 **Purpose:** Introduces the analytics platform and provides navigation to its five analytical modules.
 

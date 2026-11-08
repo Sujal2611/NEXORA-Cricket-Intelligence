@@ -1,24 +1,14 @@
 # 🏏 NEXORA Cricket Intelligence
-### Interactive IPL Analytics Platform | Microsoft Power BI
+### IPL Analytics Platform | Microsoft Power BI
 
-<p align="center">
-  <img src="Logo.png" alt="NEXORA Cricket Intelligence Logo" width="220"/>
-</p>
+**WHERE CRICKET MEETS DATA INTELLIGENCE**
 
-<p align="center">
-  **WHERE CRICKET MEETS DATA INTELLIGENCE**
-</p>
+An interactive sports analytics platform covering **17 IPL seasons (2008–2024)**, developed using Microsoft Power BI to analyze player performance, franchise statistics, match outcomes, and tournament trends.
 
-<p align="center">
-  An interactive sports analytics platform exploring 17 IPL seasons (2008–2024) through player performance, team statistics, match insights, and tournament trends.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/DAX-Analytics-512BD4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Domain-Sports%20Analytics-00CFE8?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Seasons-2008--2024-00BFA6?style=for-the-badge"/>
-</p>
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Analytics-512BD4?style=for-the-badge)
+![Sports Analytics](https://img.shields.io/badge/Domain-Sports%20Analytics-00CFE8?style=for-the-badge)
+![IPL](https://img.shields.io/badge/IPL-2008--2024-00BFA6?style=for-the-badge)
 
 ---
 
@@ -26,70 +16,67 @@
 
 1. [Project Overview](#-project-overview)
 2. [Project Objectives](#-project-objectives)
-3. [Dashboard Showcase](#-dashboard-showcase)
-4. [Dashboard Modules](#-dashboard-modules)
-5. [Key Performance Indicators](#-key-performance-indicators)
-6. [Interactive Features](#-interactive-features)
-7. [Tools and Technologies](#-tools-and-technologies)
-8. [Dataset Information](#-dataset-information)
-9. [Data Preparation and Modeling](#-data-preparation-and-modeling)
-10. [How to Run the Project](#-how-to-run-the-project)
-11. [Project Outcomes](#-project-outcomes)
-12. [Repository Structure](#-repository-structure)
-13. [Author](#-author)
+3. [Dashboard Modules](#-dashboard-modules)
+4. [Key Performance Indicators](#-key-performance-indicators)
+5. [Interactive Features](#-interactive-features)
+6. [Tools and Technologies](#-tools-and-technologies)
+7. [Dataset Information](#-dataset-information)
+8. [Data Preparation and Modeling](#-data-preparation-and-modeling)
+9. [How to Run the Project](#-how-to-run-the-project)
+10. [Project Outcomes](#-project-outcomes)
+11. [Repository Structure](#-repository-structure)
+12. [Author](#-author)
 
 ---
 
 ## 🎯 Project Overview
 
-**NEXORA Cricket Intelligence** is a multi-page IPL analytics platform developed using Microsoft Power BI to transform historical Indian Premier League data into meaningful cricket insights.
+**NEXORA Cricket Intelligence** is a multi-page IPL analytics platform developed using Microsoft Power BI.
 
-Covering **17 IPL seasons from 2008 to 2024**, the project analyzes match-level and ball-by-ball data to explore batting performance, bowling effectiveness, team achievements, match outcomes, and tournament trends.
+Covering 17 IPL seasons from 2008 to 2024, this project transforms historical match-level and ball-by-ball cricket data into meaningful analytical insights.
 
-The platform combines data transformation, analytical data modeling, DAX calculations, and interactive visualizations in a unified dashboard experience.
+The platform provides an interactive environment to explore:
 
-Its premium dark interface, cyan and purple accents, custom banners, and interactive navigation create a professional sports intelligence environment.
+- Tournament statistics and historical trends.
+- Individual batting and bowling performances.
+- Franchise achievements and team comparisons.
+- Match outcomes and toss-related patterns.
+- Venue activity and season-wise scoring trends.
+
+The solution combines Power Query transformations, data modeling, DAX calculations, and interactive visualizations to deliver a comprehensive cricket analytics experience.
 
 ## 🎯 Project Objectives
 
-- Analyze IPL tournament statistics across 17 seasons.
+- Analyze IPL tournament statistics across multiple seasons.
 - Identify top-performing batsmen and bowlers.
 - Evaluate batting and bowling performance using statistical measures.
-- Compare franchise wins and overall team performance.
+- Compare franchise wins and team performance.
 - Understand batting-first versus chasing match outcomes.
 - Analyze toss decisions and their relationship with match results.
-- Explore venue activity and season-wise scoring trends.
+- Explore venue activity and season-wise scoring patterns.
 - Present complex cricket data through interactive visual storytelling.
 
 ---
 
-# 📊 Dashboard Showcase
+## 📊 Dashboard Modules
 
-The project consists of six report pages: one introduction page and five analytical dashboard pages.
+The platform consists of **six report pages**, including one introduction page and five analytical dashboard pages.
 
-## 1. Introduction – NEXORA Cricket Intelligence
+### 1. Introduction – NEXORA Cricket Intelligence
 
-![Uploading Screenshot 2026-11-08 123245.png…]()
+Introduces the analytics platform and provides navigation to its five analytical modules.
 
-
-**Purpose:** Introduces the analytics platform and provides navigation to its five analytical modules.
-
-**Highlights:**
+**Key highlights:**
 - NEXORA Cricket Intelligence branding.
 - IPL 2008–2024 coverage.
 - Overview of the five dashboard modules.
-- Dedicated dashboard navigation experience.
+- Dedicated dashboard navigation.
 
-## 2. Tournament Overview
+### 2. Tournament Overview
 
-<p align="center">
-  <img src="<img width="965" height="742" alt="Tournment Overiew" src="https://github.com/user-attachments/assets/956b2dda-876d-45cf-84bd-3eb5fbdad0d8" />
-" alt="IPL Tournament Overview Dashboard" width="100%"/>
-</p>
+Provides a consolidated overview of IPL tournament statistics and franchise achievements.
 
-**Purpose:** Provides a consolidated overview of IPL tournament statistics and franchise achievements.
-
-**Key insights and visualizations:**
+**Key insights:**
 - Total matches, teams, runs, and wickets.
 - Orange Cap and Purple Cap leaders.
 - Player of the Tournament.
@@ -99,33 +86,23 @@ The project consists of six report pages: one introduction page and five analyti
 - Franchise-wise wins and tournament titles.
 - Season-wise highest and lowest innings.
 
-## 3. Batting Intelligence
+### 3. Batting Intelligence
 
-<p align="center">
-  <img src="<img width="963" height="741" alt="Batting Intelligence" src="https://github.com/user-attachments/assets/7757869f-f702-45ae-bdac-e2637f5503cc" />
-" alt="IPL Batting Intelligence Dashboard" width="100%"/>
-</p>
+Evaluates individual batting performance and identifies top-performing batsmen.
 
-**Purpose:** Evaluates individual batting performance and identifies the most productive batsmen.
-
-**Key insights and visualizations:**
-- Batter runs, total fours, and total sixes.
+**Key insights:**
+- Batter runs, fours, and sixes.
 - Batting strike rate.
 - Top 10 batters by runs.
 - Top 10 batters by strike rate.
-- Boundary comparison: fours versus sixes.
+- Fours versus sixes comparison.
 - Runs versus strike rate scatter analysis.
 
-## 4. Bowling Intelligence
+### 4. Bowling Intelligence
 
-<p align="center">
-  <img src="<img width="967" height="738" alt="Bowling Intelligence" src="https://github.com/user-attachments/assets/71c30227-07cb-42b8-9c90-1d43a11e90ee" />
-" alt="IPL Bowling Intelligence Dashboard" width="100%"/>
-</p>
+Analyzes bowling effectiveness, wicket-taking ability, and bowling performance.
 
-**Purpose:** Analyzes bowling effectiveness, wicket-taking ability, and bowling performance.
-
-**Key insights and visualizations:**
+**Key insights:**
 - Total wickets.
 - Bowler runs conceded.
 - Bowling economy.
@@ -138,36 +115,26 @@ The project consists of six report pages: one introduction page and five analyti
 - Dismissal type analysis.
 - Over-by-over bowling analysis.
 
-  ## 5. Match Insights
+### 5. Match Insights
 
-<p align="center">
-  <img src="<img width="965" height="742" alt="Match Insights" src="https://github.com/user-attachments/assets/8edebb14-f160-48f5-af71-15002ff61365" />
-" alt="IPL Match Insights Dashboard" width="100%"/>
-</p>
+Explores match outcomes, toss decisions, venue activity, and winning patterns.
 
-**Purpose:** Explores match outcomes, toss decisions, venue activity, and winning patterns.
-
-**Key insights and visualizations:**
+**Key insights:**
 - Total matches.
-- Batting-first wins and chasing wins.
+- Batting-first and chasing wins.
 - Toss-to-wins percentage.
-- Batting-first versus chasing comparison.
 - Toss decision and match outcome analysis.
 - IPL match locations and venue activity.
 - Top 10 venues by matches hosted.
 - Impact of winning the toss on match victory.
 
-## 6. Team Performance
+### 6. Team Performance
 
-<p align="center">
-  <img src="<img width="972" height="738" alt="Team Performance" src="https://github.com/user-attachments/assets/44434d14-e64e-474f-ad34-e4633c97a98e" />
-" alt="IPL Team Performance Dashboard" width="100%"/>
-</p>
+Compares IPL franchise performance through wins, winning percentages, and historical team rankings.
 
-**Purpose:** Compares IPL franchise performance through wins, winning percentages, and historical team rankings.
-
-**Key insights and visualizations:**
-- Total matches, wins, runs, and bowler wickets.
+**Key insights:**
+- Total matches and total wins.
+- Total runs and bowler wickets.
 - Average runs per match.
 - Wins by franchise.
 - Win percentage by team.
@@ -178,7 +145,7 @@ The project consists of six report pages: one introduction page and five analyti
 
 ## 🔢 Key Performance Indicators
 
-The following values are displayed in the dashboard:
+The following KPIs are displayed across the dashboard pages.
 
 | Dashboard | KPI | Displayed Value |
 |---|---|---:|
@@ -200,19 +167,20 @@ The following values are displayed in the dashboard:
 | Team Performance | Total Wins | 1,090 |
 | Team Performance | Average Runs per Match | 158.79 |
 
-*Values are reproduced from the displayed dashboard pages. Different pages use different measures and filter contexts.*
+*Note: Values are taken from the displayed dashboard pages. Different pages may use different measures and filter contexts.*
 
 ---
 
 ## ⚡ Interactive Features
 
-The platform includes interactive features to support deeper exploration:
+The dashboard provides several interactive features for deeper analysis.
 
-- **Season Filters:** Analyze individual IPL seasons or compare all seasons.
-- **Team Filters:** Explore franchise-level performance.
-- **Batter and Bowler Filters:** Focus on individual player statistics.
-- **Venue Filters:** Examine match activity across venues.
-- **Result Filters:** Explore team performance by match result.
+- **Season Filters:** Explore individual IPL seasons or all seasons.
+- **Team Filters:** Analyze franchise-level performance.
+- **Batter Filters:** Focus on individual batting statistics.
+- **Bowler Filters:** Explore individual bowling performance.
+- **Venue Filters:** Analyze match activity across venues.
+- **Result Filters:** Examine team performance by match result.
 - **Cross-Page Navigation:** Move between dashboard modules.
 - **Reset Button:** Restore the report to its default filter state.
 - **Interactive Visuals:** Explore detailed insights through Power BI visual interactions.
@@ -221,34 +189,34 @@ The platform includes interactive features to support deeper exploration:
 
 ## 🛠️ Tools and Technologies
 
-| Technology | Purpose |
+| Technology | Application |
 |---|---|
-| Microsoft Power BI | Dashboard development and visualization |
+| Microsoft Power BI | Interactive dashboard development |
 | DAX | Measures, calculations, and KPIs |
 | Power Query | Data cleaning and transformation |
-| Data Modeling | Relationships between match and delivery data |
-| CSV | IPL source datasets |
+| Data Modeling | Relationships between datasets |
+| CSV | IPL match and delivery datasets |
 | JSON | Custom Power BI report theme |
 
-### Technical Implementation
+### Technical Highlights
 
-- Developed a multi-page Power BI analytics solution.
+- Developed a multi-page Power BI analytics platform.
 - Created DAX measures for batting, bowling, and team statistics.
-- Established relationships between match-level and ball-by-ball datasets.
+- Established relationships between match-level and delivery-level datasets.
 - Standardized historical franchise names.
-- Built season, team, and player-based analytical filters.
-- Designed a consistent dark navy, cyan, and purple visual theme.
-- Used different visual types to communicate different analytical perspectives.
+- Built season, team, batter, and bowler filters.
+- Designed a consistent dark navy, cyan, and purple theme.
+- Used different visualizations for different analytical perspectives.
 
 ---
 
 ## 📂 Dataset Information
 
-The project uses two primary datasets covering IPL matches and ball-by-ball deliveries.
+The project uses two primary IPL datasets.
 
 ### 1. Matches Dataset – `matches.csv`
 
-Contains match-level information such as:
+Contains match-level information, including:
 
 - Match ID
 - Season
@@ -263,7 +231,7 @@ Contains match-level information such as:
 
 ### 2. Deliveries Dataset – `deliveries.csv`
 
-Contains ball-by-ball information such as:
+Contains ball-by-ball information, including:
 
 - Match ID
 - Inning
@@ -278,7 +246,7 @@ Contains ball-by-ball information such as:
 - Wicket information
 - Dismissal type
 
-**Coverage:** IPL seasons 2008–2024.
+**Dataset Coverage:** IPL seasons 2008–2024.
 
 ---
 
@@ -296,9 +264,7 @@ Key activities included:
 - Establishing relationships between datasets.
 - Developing measures for batting, bowling, and team analysis.
 
-### Data Model
-
-The analytical model uses match-level and delivery-level data, connected through their common match identifier.
+The analytical model connects match-level and delivery-level records through their common match identifier.
 
 ---
 
@@ -306,30 +272,30 @@ The analytical model uses match-level and delivery-level data, connected through
 
 Follow these steps to explore the dashboard locally.
 
-**Step 1 – Clone the repository**
+### Step 1 – Clone the Repository
 
 ```bash
 git clone https://github.com/Sujal2611/NEXORA-Cricket-Intelligence.git
 ```
 
-**Step 2 – Open Power BI Desktop**
+### Step 2 – Open Power BI Desktop
 
 Navigate to the downloaded repository and open:
 
 `Cricket_Analytics.pbix`
 
-**Step 3 – Connect the datasets**
+### Step 3 – Connect the Datasets
 
-If Power BI requests updated file paths, reconnect the following files:
+If Power BI requests updated file locations, reconnect:
 
 - `DataSet/matches.csv`
 - `DataSet/deliveries.csv`
 
-**Step 4 – Refresh the report**
+### Step 4 – Refresh the Data
 
-Select **Home → Refresh** to load the data.
+Select **Home → Refresh** in Power BI Desktop.
 
-**Step 5 – Explore the dashboard**
+### Step 5 – Explore the Dashboard
 
 Use the navigation buttons, filters, and interactive visualizations to explore IPL analytics.
 
@@ -346,7 +312,7 @@ The project showcases:
 - Franchise comparison and historical performance analysis.
 - Match outcome and toss decision analysis.
 - Interactive reporting using DAX and Power BI.
-- Professional dashboard design and data storytelling.
+- Professional dashboard design and analytical storytelling.
 
 ---
 
@@ -359,14 +325,6 @@ NEXORA-Cricket-Intelligence/
 │   ├── deliveries.csv
 │   └── matches.csv
 │
-├── Screenshots/
-│   ├── 01-Introduction.png
-│   ├── 02-Tournament-Overview.png
-│   ├── 03-Batting-Intelligence.png
-│   ├── 04-Bowling-Intelligence.png
-│   ├── 05-Match-Insights.png
-│   └── 06-Team-Performance.png
-│
 ├── Cricket_Analytics.pbix
 ├── Cricket_Analytics.pdf
 ├── NEXORA_Theme.json
@@ -378,6 +336,7 @@ NEXORA-Cricket-Intelligence/
 ├── Nexora_Team_Performance_Banner_1280x150.png
 ├── Action Button.png
 ├── Title BG.png
+├── .gitattributes
 └── README.md
 ```
 
@@ -387,12 +346,12 @@ NEXORA-Cricket-Intelligence/
 
 ### Sujal Upadhyay
 
-Data Science Student | Aspiring Data Analyst
+**Data Science Student | Aspiring Data Analyst**
 
 Interested in Data Analytics, Business Intelligence, SQL, and Data Visualization.
 
-- **GitHub:** [Sujal2611](https://github.com/Sujal2611)
-- **Project:** [NEXORA Cricket Intelligence](https://github.com/Sujal2611/NEXORA-Cricket-Intelligence)
+- **GitHub Profile:** [Sujal2611](https://github.com/Sujal2611)
+- **Project Repository:** [NEXORA Cricket Intelligence](https://github.com/Sujal2611/NEXORA-Cricket-Intelligence)
 
 ---
 
@@ -402,10 +361,6 @@ NEXORA Cricket Intelligence brings cricket and data analytics together through a
 
 By combining data preparation, DAX, data modeling, and professional visualization, the project transforms historical IPL data into meaningful insights about players, teams, matches, and tournament performance.
 
-<p align="center">
-  **NEXORA – WHERE CRICKET MEETS DATA INTELLIGENCE. 🏏**
-</p>
+**NEXORA – WHERE CRICKET MEETS DATA INTELLIGENCE. 🏏**
 
-<p align="center">
-  ⭐ If you find this project interesting, consider giving the repository a star!
-</p>
+⭐ If you find this project interesting, consider giving the repository a star!
